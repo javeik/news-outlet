@@ -1,3 +1,5 @@
+import React from "react";
+
 import "./App.css";
 import NewsList from "./NewsList/NewsList";
 
@@ -6,9 +8,7 @@ const App = () => {
     <div>
       <header className="App-header">Some awesome news</header>
 
-      <body>
-        <NewsList />
-      </body>
+      <NewsList />
     </div>
   );
 };

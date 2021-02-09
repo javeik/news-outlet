@@ -1,10 +1,10 @@
+import React from "react";
+
 import "./NewsList.css";
 import useFetchNews from "./useFetchNews";
 
 const NewsList = () => {
   const { news } = useFetchNews();
-
-  console.log(news);
 
   return (
     <ol className="NewsList">
